@@ -1,0 +1,304 @@
+# Blender MTL File: 'GuitarSaved.blend'
+# Material Count: 22
+
+newmtl Bridge
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_Bridge_Normal.png
+map_Kd Texture\\GuitarFBX_Bridge_BaseColor.png
+map_Ns Texture\\GuitarFBX_Bridge_Roughness.png
+refl Texture\\GuitarFBX_Bridge_Metallic.png
+
+newmtl FingerBoard
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_FingerBoard_Normal.png
+map_Kd Texture\\GuitarFBX_FingerBoard_BaseColor.png
+map_Ns Texture\\GuitarFBX_FingerBoard_Roughness.png
+refl Texture\\GuitarFBX_FingerBoard_Metallic.png
+
+newmtl Frets
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_Frets_Normal.png
+map_Kd Texture\\GuitarFBX_Frets_BaseColor.png
+map_Ns Texture\\GuitarFBX_Frets_Roughness.png
+refl Texture\\GuitarFBX_Frets_Metallic.png
+
+newmtl GuitarBackAccessoriGlass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_GuitarBackAccessoriGlass_Normal.png
+map_Kd Texture\\GuitarFBX_GuitarBackAccessoriGlass_BaseColor.png
+map_Ns Texture\\GuitarFBX_GuitarBackAccessoriGlass_Roughness.png
+refl Texture\\GuitarFBX_GuitarBackAccessoriGlass_Metallic.png
+
+newmtl GuitarBackAccessories
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_GuitarBackAccessories_Normal.png
+map_Kd Texture\\GuitarFBX_GuitarBackAccessories_BaseColor.png
+map_Ns Texture\\GuitarFBX_GuitarBackAccessories_Roughness.png
+refl Texture\\GuitarFBX_GuitarBackAccessories_Metallic.png
+
+newmtl GuitarBody
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_GuitarBody_Normal.png
+map_Kd Texture\\GuitarFBX_GuitarBody_BaseColor.png
+map_Ns Texture\\GuitarFBX_GuitarBody_Roughness.png
+refl Texture\\GuitarFBX_GuitarBody_Metallic.png
+
+newmtl Head
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_Head_Normal.png
+map_Kd Texture\\GuitarFBX_Head_BaseColor.png
+map_Ns Texture\\GuitarFBX_Head_Roughness.png
+refl Texture\\GuitarFBX_Head_Metallic.png
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl NutboltVariation1
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_NutboltVariation1_Normal.png
+map_Kd Texture\\GuitarFBX_NutboltVariation1_BaseColor.png
+map_Ns Texture\\GuitarFBX_NutboltVariation1_Roughness.png
+refl Texture\\GuitarFBX_NutboltVariation1_Metallic.png
+
+newmtl NutboltVariation2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_NutboltVariation2_Normal.png
+map_Kd Texture\\GuitarFBX_NutboltVariation2_BaseColor.png
+map_Ns Texture\\GuitarFBX_NutboltVariation2_Roughness.png
+refl Texture\\GuitarFBX_NutboltVariation2_Metallic.png
+
+newmtl NutboltVariation3
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_NutboltVariation3_Normal.png
+map_Kd Texture\\GuitarFBX_NutboltVariation3_BaseColor.png
+map_Ns Texture\\GuitarFBX_NutboltVariation3_Roughness.png
+refl Texture\\GuitarFBX_NutboltVariation3_Metallic.png
+
+newmtl NutboltVariation4
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_NutboltVariation4_Normal.png
+map_Kd Texture\\GuitarFBX_NutboltVariation4_BaseColor.png
+map_Ns Texture\\GuitarFBX_NutboltVariation4_Roughness.png
+refl Texture\\GuitarFBX_NutboltVariation4_Metallic.png
+
+newmtl NutboltVariation5
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_NutboltVariation5_Normal.png
+map_Kd Texture\\GuitarFBX_NutboltVariation5_BaseColor.png
+map_Ns Texture\\GuitarFBX_NutboltVariation5_Roughness.png
+refl Texture\\GuitarFBX_NutboltVariation5_Metallic.png
+
+newmtl PickupSelectorSwitch
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_PickupSelectorSwitch_Normal.png
+map_Kd Texture\\GuitarFBX_PickupSelectorSwitch_BaseColor.png
+map_Ns Texture\\GuitarFBX_PickupSelectorSwitch_Roughness.png
+refl Texture\\GuitarFBX_PickupSelectorSwitch_Metallic.png
+
+newmtl Pickups
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_Pickups_Normal.png
+map_Kd Texture\\GuitarFBX_Pickups_BaseColor.png
+map_Ns Texture\\GuitarFBX_Pickups_Roughness.png
+refl Texture\\GuitarFBX_Pickups_Metallic.png
+
+newmtl PositionMarker
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_PositionMarker_Normal.png
+map_Kd Texture\\GuitarFBX_PositionMarker_BaseColor.png
+map_Ns Texture\\GuitarFBX_PositionMarker_Roughness.png
+refl Texture\\GuitarFBX_PositionMarker_Metallic.png
+
+newmtl SpringInsideGuitar
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_SpringInsideGuitar_Normal.png
+map_Kd Texture\\GuitarFBX_SpringInsideGuitar_BaseColor.png
+map_Ns Texture\\GuitarFBX_SpringInsideGuitar_Roughness.png
+refl Texture\\GuitarFBX_SpringInsideGuitar_Metallic.png
+
+newmtl TuningKeys
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_TuningKeys_Normal.png
+map_Kd Texture\\GuitarFBX_TuningKeys_BaseColor.png
+map_Ns Texture\\GuitarFBX_TuningKeys_Roughness.png
+refl Texture\\GuitarFBX_TuningKeys_Metallic.png
+
+newmtl Wire
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_Wire_Normal.png
+map_Kd Texture\\GuitarFBX_Wire_BaseColor.png
+map_Ns Texture\\GuitarFBX_Wire_Roughness.png
+refl Texture\\GuitarFBX_Wire_Metallic.png
+
+newmtl WireStablizer
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_WireStablizer_Normal.png
+map_Kd Texture\\GuitarFBX_WireStablizer_BaseColor.png
+map_Ns Texture\\GuitarFBX_WireStablizer_Roughness.png
+refl Texture\\GuitarFBX_WireStablizer_Metallic.png
+
+newmtl WoodenFingerboardBase
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_WoodenFingerboardBase_Normal.png
+map_Kd Texture\\GuitarFBX_WoodenFingerboardBase_BaseColor.png
+map_Ns Texture\\GuitarFBX_WoodenFingerboardBase_Roughness.png
+refl Texture\\GuitarFBX_WoodenFingerboardBase_Metallic.png
+
+newmtl WoodenHeadBase
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Texture\\GuitarFBX_WoodenHeadBase_Normal.png
+map_Kd Texture\\GuitarFBX_WoodenHeadBase_BaseColor.png
+map_Ns Texture\\GuitarFBX_WoodenHeadBase_Roughness.png
+refl Texture\\GuitarFBX_WoodenHeadBase_Metallic.png
