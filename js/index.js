@@ -2461,7 +2461,12 @@
   // js/index.jsx
   var scroller = new locomotive_scroll_esm_default({
     el: document.querySelector("[data-scroll-container]"),
-    smooth: true
+    smooth: true,
+    tablet: { smooth: true },
+    smartphone: { smooth: true }
+  });
+  scroller.on("#leaveGuitar", (instance) => {
+    console.log(instance.scroll.y);
   });
 })();
 /*

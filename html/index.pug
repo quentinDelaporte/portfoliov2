@@ -11,52 +11,52 @@ html(lang="en")
         div(data-scroll-container)
             div(class="section", data-scroll-section)
                 div(class="Titre-1", data-scroll)
-                    div(class="Outline", data-scroll-direction="horizontal") DELAPORTE
-                    div(class="Inline") QUENTIN 
-    
+                    div(class="Outline", data-scroll, data-scroll-speed="2", data-scroll-direction="horizontal") DELAPORTE
+                    div(class="Inline", data-scroll, data-scroll-speed="3", data-scroll-direction="vertical") QUENTIN 
+
             div(id="guitarContainer", data-scroll-section)
-                div(id="guitar", data-scroll, data-scroll-speed="2")
-                p(class="asideGuitar") Je m'appelle Quentin, j'ai 21 ans et je suis étudiant en Licence CDA ! <br> je suis passioné d'informatique depuis de nombreuses années ! J'ai commencé la programmation en 2014 avec des petites pages web, j'ai tout de suite adoré la logique qui en découle, c'est pour cela que j'en ai fait mon domaine. <br> Durant mon temps libre j'aime jouer de la guitare, bricoller, écouter de la musique...
+                div(id="guitar")
+                p(class="asideGuitar", data-scroll, data-scroll-direction="vertical", data-scroll-speed="4") Je m'appelle Quentin, j'ai 21 ans et je suis étudiant en Licence CDA ! <br> je suis passioné d'informatique depuis de nombreuses années ! J'ai commencé la programmation en 2014 avec des petites pages web, j'ai tout de suite adoré la logique qui en découle, c'est pour cela que j'en ai fait mon domaine. <br> Durant mon temps libre j'aime jouer de la guitare, bricoller, écouter de la musique...
+                div(id="leaveGuitar" )
             div(class="section", data-scroll-section)
-                h2(class="Titre-2" data-scroll-speed="2") Formations
-                ul 
-                    li 
-                        div(class="dateFormation") 2021-2022
-                        div(class="IntituleFormation") Licence CDA en alternance, Valarep
-                    li 
-                        div(class="dateFormation") 2019-2021 
-                        div(class="IntituleFormation") BTS SIO, Lycée dampierre
-                    li 
-                        div(class="dateFormation") 2015-2018 
-                        div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
+                h2(class="Titre-2" data-scroll-speed="2" data-scroll data-scroll-sticky) Formations
+                div(class="formation")
+                    div(class="dateFormation") 2021-2022
+                    div(class="IntituleFormation") Licence CDA en alternance, Valarep
+                div(class="formation")
+                    div(class="dateFormation") 2019-2021 
+                    div(class="IntituleFormation") BTS SIO, Lycée dampierre
+                div(class="formation")
+                    div(class="dateFormation") 2015-2018 
+                    div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
                 
             div(class="section", data-scroll-section)
                 h2(class="Titre-2" data-scroll-speed="2") Expérience
-                ul 
-                    li 
-                        div(class="dateJob") Octobre 2021 - Octobre 2022: 
-                        div(class="IntituleJob") Alternance chez WOIT-Group (Anciennement Progise)
-                        div(class="textJob") Programmation d'un site web de gestion (PHP, JS, HTML, SCSS, AJAX, MSSQL). Developpement sous VB6 de fonctionnalité pour un logiciel de gestion.
-                    li 
-                        div(class="dateJob") Mai 2021 - Septembre 2021: 
-                        div(class="IntituleJob") Developpeur chez WOIT-Group (Anciennement Progise)
-                        div(class="textJob") Programmation d'un site de gestion des temps et des activitées (PHP, JS, HTML, SCSS, AJAX, MSSQL), Programmation d'un site web de gestion (PHP, JS, HTML, SCSS, AJAX, MSSQL). Developpement sous VB6 de fonctionnalité pour un logiciel de gestion. 
-                    li 
-                        div(class="dateJob") Fevrier 2021: 
-                        div(class="IntituleJob") Stage chez Progise
-                        div(class="textJob") Programmation d'un site web de gestion, traitement de données et mise en page. Utilisation des langages HTML, CSS, SASS, PHP, JavaScript, SQL (Microsoft SQL server) ainsi que du modele MVC. Programmation d'une application java d'affichage de donnée tiré d'un .json avec mise à jours toutes les minutes.
-                    li 
-                        div(class="dateJob") Fevrier 2020 - Avril 2021: 
-                        div(class="IntituleJob") Employé polyvalent, Aux délices d'Eric 
-                        div(class="textJob") Restauration: Préparation des commandes, nettoyage des locaux, livraison, prise de commandes et encaissement.
-                    li 
-                        div(class="dateJob") Juin 2019: 
-                        div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
-                        div(class="textJob") Entretien et nettoyage des espaces publiques
-                    li 
-                        div(class="dateJob") Juillet 2018: 
-                        div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
-                        div(class="textJob") Préparation de plat pour les centres aérés, Nettoyage des locaux
+              
+                div(class="Job")
+                    div(class="dateJob") Octobre 2021 - Octobre 2022: 
+                    div(class="IntituleJob") Alternance chez WOIT-Group (Anciennement Progise)
+                    div(class="textJob") Programmation d'un site web de gestion (PHP, JS, HTML, SCSS, AJAX, MSSQL). Developpement sous VB6 de fonctionnalité pour un logiciel de gestion.
+                div(class="Job")
+                    div(class="dateJob") Mai 2021 - Septembre 2021: 
+                    div(class="IntituleJob") Developpeur chez WOIT-Group (Anciennement Progise)
+                    div(class="textJob") Programmation d'un site de gestion des temps et des activitées (PHP, JS, HTML, SCSS, AJAX, MSSQL), Programmation d'un site web de gestion (PHP, JS, HTML, SCSS, AJAX, MSSQL). Developpement sous VB6 de fonctionnalité pour un logiciel de gestion. 
+                div(class="Job")
+                    div(class="dateJob") Fevrier 2021: 
+                    div(class="IntituleJob") Stage chez Progise
+                    div(class="textJob") Programmation d'un site web de gestion, traitement de données et mise en page. Utilisation des langages HTML, CSS, SASS, PHP, JavaScript, SQL (Microsoft SQL server) ainsi que du modele MVC. Programmation d'une application java d'affichage de donnée tiré d'un .json avec mise à jours toutes les minutes.
+                div(class="Job")
+                    div(class="dateJob") Fevrier 2020 - Avril 2021: 
+                    div(class="IntituleJob") Employé polyvalent, Aux délices d'Eric 
+                    div(class="textJob") Restauration: Préparation des commandes, nettoyage des locaux, livraison, prise de commandes et encaissement.
+                div(class="Job")
+                    div(class="dateJob") Juin 2019: 
+                    div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
+                    div(class="textJob") Entretien et nettoyage des espaces publiques
+                div(class="Job")
+                    div(class="dateJob") Juillet 2018: 
+                    div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
+                    div(class="textJob") Préparation de plat pour les centres aérés, Nettoyage des locaux
 
             div(class="section", data-scroll-section)
                 h2(class="Titre-2" data-scroll-speed="2") Compétences

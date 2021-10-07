@@ -59,9 +59,32 @@ canvas {
         color: rgb(240, 240, 240);
         font-family: 'Montserrat', sans-serif;
     }
-    ul {
-        li {
-            font-family: 'Montserrat', sans-serif;
+    .formation {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        background-color: rgb(17, 17, 17);
+        color: white;
+        margin-left: 25%;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+        height: 70vh;
+        overflow: hidden;
+        -webkit-box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
+        box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
+        border-radius: 25px;
+        .dateFormation,
+        .IntituleFormation {
+            display: inline;
+        }
+        .dateFormation {
+            float: left;
+            text-align: center;
+            width: 20%;
+        }
+        .IntituleFormation {
+            width: 80%;
+            float: right;
         }
     }
 }
@@ -78,6 +101,14 @@ canvas {
         position: Absolute;
         margin-left: calc(250px + calc(0.1*calc(100vw - 250px)));
         width: calc(0.8*calc(100vw - 250px));
-        margin-top: -100vh;
+        margin-top: -80vh;
+    }
+    #leaveGuitar {
+        margin-left: 50vw;
+        z-index: 250;
+        border: 1px solid red;
+        height: 10px;
+        width: 100px;
+        background-color: red
     }
 }

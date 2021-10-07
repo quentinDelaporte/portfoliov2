@@ -60,8 +60,32 @@ canvas {
   color: #f0f0f0;
   font-family: "Montserrat", sans-serif;
 }
-.section ul li {
+.section .formation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-color: #111111;
+  color: white;
+  margin-left: 25%;
   font-family: "Montserrat", sans-serif;
+  width: 50%;
+  height: 70vh;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
+  border-radius: 25px;
+}
+.section .formation .dateFormation,
+.section .formation .IntituleFormation {
+  display: inline;
+}
+.section .formation .dateFormation {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+.section .formation .IntituleFormation {
+  width: 80%;
+  float: right;
 }
 
 #guitarContainer {
@@ -77,5 +101,13 @@ canvas {
   position: Absolute;
   margin-left: calc(250px + calc(0.1*calc(100vw - 250px)));
   width: calc(0.8*calc(100vw - 250px));
-  margin-top: -100vh;
+  margin-top: -80vh;
+}
+#guitarContainer #leaveGuitar {
+  margin-left: 50vw;
+  z-index: 250;
+  border: 1px solid red;
+  height: 10px;
+  width: 100px;
+  background-color: red;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: rgb(240, 240, 240);
+}
+
+.bookContainer {
+    height: 100%;
+    width: 100%;
+    .book {
+        border: 1px solid red;
+        width: 100vh;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: calc(calc(100vw - 100vh) / 2);
+        background-color: rgb(88, 50, 0);
+        .page {
+            &.page1 {
+                background: rgb(255, 255, 255);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(223, 223, 223, 1) 90%, rgba(199, 199, 199, 1) 100%);
+            }
+            &.page2 {
+                background: rgb(199, 199, 199);
+                background: linear-gradient(90deg, rgba(199, 199, 199, 1) 0%, rgba(223, 223, 223, 1) 10%, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 1) 100%);
+                margin-left: calc(calc(0.50 * 100vh));
+            }
+            background-color: white;
+            color:black;
+            position: absolute;
+            margin-left: calc(0.02 * 100vh);
+            width: calc(0.48 * 100vh);
+            height: calc(0.94 * 80vh);
+            margin-top: calc(0.03 * 80vh);
+            border: 1px solid yellow;
+        }
+    }
+}
