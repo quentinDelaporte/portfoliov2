@@ -1,10 +1,11 @@
 doctype html
-html(lang="en")
+html(Language="en")
     head
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="../css/index.css")
+        //- link(rel="stylesheet", href="../css/spline.css")
         link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css") 
         title Document
     body(class="")
@@ -29,10 +30,10 @@ html(lang="en")
                 div(class="formation")
                     div(class="dateFormation") 2015-2018 
                     div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
-                
+
             div(class="section", data-scroll-section)
                 h2(class="Titre-2" data-scroll-speed="2") Expérience
-              
+
                 div(class="Job")
                     div(class="dateJob") Octobre 2021 - Octobre 2022: 
                     div(class="IntituleJob") Alternance chez WOIT-Group (Anciennement Progise)
@@ -44,36 +45,51 @@ html(lang="en")
                 div(class="Job")
                     div(class="dateJob") Fevrier 2021: 
                     div(class="IntituleJob") Stage chez Progise
-                    div(class="textJob") Programmation d'un site web de gestion, traitement de données et mise en page. Utilisation des langages HTML, CSS, SASS, PHP, JavaScript, SQL (Microsoft SQL server) ainsi que du modele MVC. Programmation d'une application java d'affichage de donnée tiré d'un .json avec mise à jours toutes les minutes.
+                    div(class="textJob") Programmation d'un site web de gestion, traitement de données et mise en page. Utilisation des Languageages HTML, CSS, SASS, PHP, JavaScript, SQL (Microsoft SQL server) ainsi que du modele MVC. Programmation d'une application java d'affichage de donnée tiré d'un .json avec mise à jours toutes les minutes.
                 div(class="Job")
                     div(class="dateJob") Fevrier 2020 - Avril 2021: 
                     div(class="IntituleJob") Employé polyvalent, Aux délices d'Eric 
                     div(class="textJob") Restauration: Préparation des commandes, nettoyage des locaux, livraison, prise de commandes et encaissement.
                 div(class="Job")
-                    div(class="dateJob") Juin 2019: 
+                    div(class="dateJob") Juin 2019:
                     div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
                     div(class="textJob") Entretien et nettoyage des espaces publiques
                 div(class="Job")
                     div(class="dateJob") Juillet 2018: 
                     div(class="IntituleJob") Employé polyvalent, Mairie de Saint-Amand-Les-Eaux
                     div(class="textJob") Préparation de plat pour les centres aérés, Nettoyage des locaux
-
+            //- div(id='container')
+            //-     canvas(id="canvas3d")
             div(class="section", data-scroll-section)
                 h2(class="Titre-2" data-scroll-speed="2") Compétences
-                h4(class="sous-Titre") HTML
+            div(class="Language")
+                .containerImage 
+                    .image 
+                        img(src="../images/html.png") 
+                h4(class="sous-Titre" id="Language-HTML") HTML
                 p Bonne connaissance de HTML et de pug
-                h4(class="sous-Titre") CSS 
+            div(class="Language")
+                h4(class="sous-Titre" id="Language-CSS") CSS 
                 p Bonne connaissance de CSS et de SCSS, Initiation à TailWindCSS 
-                h4(class="sous-Titre") JavaScript
+            div(class="Language")
+                h4(class="sous-Titre" id="Language-JS") JavaScript
                 p Intermediaire, bonne connaissance de vanilla js, Jquerry et de AJAX, Initiation à TypeScript, initiation a Three.js, GSAP, Locomotive-scroll, ScrollMagic, AOS et Chart.js
-                h4(class="sous-Titre") PHP 
-                p  Connaissances approfondi du langage, bonnes connaissances du framework symfony.
+            div(class="Language")
+                h4(class="sous-Titre" id="Language-PHP") PHP 
+                p  Connaissances approfondi du Languageage, bonnes connaissances du framework symfony.
+            div(class="Language" id="Language-JAVA")
                 h4(class="sous-Titre") JAVA
                 p Bonne connaissance du JAVA
+            div(class="Language" id="Language-KT")
                 h4(class="sous-Titre") Kotlin
                 p Initiation en autodidacte
+            div(class="Language" id="Language-VB")
                 h4(class="sous-Titre") Visual Basic 6
                 p Débutant
+
+        //- script(src="https://unpkg.com/three@^0.131.0/build/three.min.js")
+        //- script(src="../js/runtime.js")
+        //- script(type="module" src="../js/spline.js")
         script(type="module" src="../js/guitar.js")
         script(src="../node_modules/locomotive-scroll/dist/locomotive-scroll.js")
         script(type="module", src="../js/index.js")
