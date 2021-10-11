@@ -9,18 +9,17 @@ html(Language="en")
         link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css") 
         title Document
     body(class="")
-        div(data-scroll-container)
-            div(class="section", data-scroll-section)
-                div(class="Titre-1", data-scroll)
-                    div(class="Outline", data-scroll, data-scroll-speed="2", data-scroll-direction="horizontal") DELAPORTE
-                    div(class="Inline", data-scroll, data-scroll-speed="3", data-scroll-direction="vertical") QUENTIN 
+        div(id="scroll-container")
+            div(class="section")
+                div(class="Titre-1")
+                    div(class="Outline") DELAPORTE
+                    div(class="Inline") QUENTIN 
 
-            div(id="guitarContainer", data-scroll-section)
+            div(id="guitarContainer")
                 div(id="guitar")
-                p(class="asideGuitar", data-scroll, data-scroll-direction="vertical", data-scroll-speed="4") Je m'appelle Quentin, j'ai 21 ans et je suis étudiant en Licence CDA ! <br> je suis passioné d'informatique depuis de nombreuses années ! J'ai commencé la programmation en 2014 avec des petites pages web, j'ai tout de suite adoré la logique qui en découle, c'est pour cela que j'en ai fait mon domaine. <br> Durant mon temps libre j'aime jouer de la guitare, bricoller, écouter de la musique...
-                div(id="leaveGuitar" )
-            div(class="section", data-scroll-section)
-                h2(class="Titre-2" data-scroll-speed="2" data-scroll data-scroll-sticky) Formations
+                p(class="asideGuitar") Je m'appelle Quentin, j'ai 21 ans et je suis étudiant en Licence CDA ! <br> je suis passioné d'informatique depuis de nombreuses années ! J'ai commencé la programmation en 2014 avec des petites pages web, j'ai tout de suite adoré la logique qui en découle, c'est pour cela que j'en ai fait mon domaine. <br> Durant mon temps libre j'aime jouer de la guitare, bricoller, écouter de la musique...
+            div(class="section")
+                h2(class="Titre-2") Formations
                 div(class="formation")
                     div(class="dateFormation") 2021-2022
                     div(class="IntituleFormation") Licence CDA en alternance, Valarep
@@ -31,9 +30,8 @@ html(Language="en")
                     div(class="dateFormation") 2015-2018 
                     div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
 
-            div(class="section", data-scroll-section)
-                h2(class="Titre-2" data-scroll-speed="2") Expérience
-
+            div(class="section")
+                h2(class="Titre-2") Expérience
                 div(class="Job")
                     div(class="dateJob") Octobre 2021 - Octobre 2022: 
                     div(class="IntituleJob") Alternance chez WOIT-Group (Anciennement Progise)
@@ -60,36 +58,54 @@ html(Language="en")
                     div(class="textJob") Préparation de plat pour les centres aérés, Nettoyage des locaux
             //- div(id='container')
             //-     canvas(id="canvas3d")
-            div(class="section", data-scroll-section)
-                h2(class="Titre-2" data-scroll-speed="2") Compétences
-            div(class="Language")
-                .containerImage 
-                    .image 
-                        img(src="../images/html.png") 
-                h4(class="sous-Titre" id="Language-HTML") HTML
-                p Bonne connaissance de HTML et de pug
-            div(class="Language")
-                h4(class="sous-Titre" id="Language-CSS") CSS 
-                p Bonne connaissance de CSS et de SCSS, Initiation à TailWindCSS 
-            div(class="Language")
-                h4(class="sous-Titre" id="Language-JS") JavaScript
-                p Intermediaire, bonne connaissance de vanilla js, Jquerry et de AJAX, Initiation à TypeScript, initiation a Three.js, GSAP, Locomotive-scroll, ScrollMagic, AOS et Chart.js
-            div(class="Language")
-                h4(class="sous-Titre" id="Language-PHP") PHP 
-                p  Connaissances approfondi du Languageage, bonnes connaissances du framework symfony.
-            div(class="Language" id="Language-JAVA")
-                h4(class="sous-Titre") JAVA
-                p Bonne connaissance du JAVA
-            div(class="Language" id="Language-KT")
-                h4(class="sous-Titre") Kotlin
-                p Initiation en autodidacte
-            div(class="Language" id="Language-VB")
-                h4(class="sous-Titre") Visual Basic 6
-                p Débutant
+            div(class="section")
+                h2(class="Titre-2") Compétences
 
+                div(class="CompetenceContainer")
+                    div(class="Language")
+                        .containerImage 
+                            .image 
+                                img(src="../images/html.png") 
+                        h4(class="sous-Titre" id="Language-HTML") HTML
+                        p Bonne connaissance de HTML et de pug
+                    div(class="Language")
+                        .containerImage 
+                            .image 
+                                img(src="../images/css.png")
+                        h4(class="sous-Titre" id="Language-CSS") CSS 
+                        p Bonne connaissance de CSS et de SCSS, Initiation à TailWindCSS 
+                    div(class="Language")
+                        .containerImage 
+                            .image 
+                                img(src="../images/js.png")
+                        h4(class="sous-Titre" id="Language-JS") JavaScript
+                        p Intermediaire, bonne connaissance de vanilla js, Jquerry et de AJAX, Initiation à TypeScript, initiation a Three.js, GSAP, Locomotive-scroll, ScrollMagic, AOS et Chart.js
+                    div(class="Language")
+                        .containerImage 
+                            .image 
+                                img(src="../images/php.png")
+                        h4(class="sous-Titre" id="Language-PHP") PHP 
+                        p  Connaissances approfondi du Languageage, bonnes connaissances du framework symfony.
+                    div(class="Language" id="Language-JAVA")
+                        .containerImage 
+                            .image 
+                                img(src="../images/java.png")
+                        h4(class="sous-Titre") JAVA
+                        p Bonne connaissance du JAVA
+                    div(class="Language" id="Language-KT")
+                        .containerImage 
+                            .image 
+                                img(src="../images/kt.png")
+                        h4(class="sous-Titre") Kotlin
+                        p Initiation en autodidacte
+                    div(class="Language" id="Language-VB")
+                        .containerImage 
+                            .image 
+                                img(src="../images/vb.png")
+                        h4(class="sous-Titre") Visual Basic 6
+                        p Débutant
         //- script(src="https://unpkg.com/three@^0.131.0/build/three.min.js")
         //- script(src="../js/runtime.js")
         //- script(type="module" src="../js/spline.js")
         script(type="module" src="../js/guitar.js")
-        script(src="../node_modules/locomotive-scroll/dist/locomotive-scroll.js")
         script(type="module", src="../js/index.js")
