@@ -90,3 +90,20 @@ function onResize() {
         requestId = requestAnimationFrame(updateScroller);
     }
 }
+
+
+// let tl = gsap.timeline({
+
+//     scrollTrigger: {
+//         trigger: "#declencheurAnimTitre",
+//         pin: true,
+//         start: "center center",
+//         end: "-=150%",
+//         scrub: 1,
+//         markers: true,
+//     },
+//     defaults: { duration: 1, ease: 'none' }
+// });
+// tl.from('.fromLeft', { x: -400 })
+// tl.to('.fromLeft', { width: '100%', height: '100%' })
+// tl.to({}, { duration: 1 }) // an empty tween = a little pause ...

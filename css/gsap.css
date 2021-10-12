@@ -1,0 +1,49 @@
+#panels #panels-container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  overflow: hidden;
+}
+#panels #panels-container .panel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  text-align: left;
+}
+#panels #panels-container .panel .panels-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#panels #panels-container .panel .anchor-panel,
+#panels #panels-container .panel .nav-panel {
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+#panels #panels-container .panel .panels-navigation {
+  position: absolute;
+  width: 100%;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.Horizontal-card {
+  margin-top: 10vh;
+  margin-left: 20vw;
+  width: 60vw;
+  border: 1px solid white;
+  background-color: #0C0C0C;
+  height: 80vh;
+}
+.Horizontal-card img {
+  margin-left: 55vw;
+  margin-top: -5vh;
+  max-width: 15vw;
+  width: auto;
+  height: auto;
+  max-height: 25vh;
+  position: absolute;
+}/*# sourceMappingURL=gsap.css.map */
