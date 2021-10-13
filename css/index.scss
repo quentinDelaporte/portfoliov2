@@ -53,44 +53,55 @@ canvas {
         }
         width: 100vw;
     }
-    .sous-Titre {
+    .sous-Titre,
+    .formation,
+    ul,
+    p {
         color: rgb(240, 240, 240);
-        font-size: 1.4em;
-        margin-left: 10%;
         font-family: 'Montserrat', sans-serif;
     }
-    p {
+    .sous-Titre {
+        font-size: 3em;
+        margin-left: 10%;
+    }
+    p,
+    ul {
         margin-left: 12%;
         width: 76%;
-        color: rgb(240, 240, 240);
-        font-family: 'Montserrat', sans-serif;
     }
     .formation {
         padding-top: 20px;
         padding-bottom: 20px;
         margin-top: 20px;
         background-color: rgb(17, 17, 17);
-        color: white;
         margin-left: 25%;
-        font-family: 'Montserrat', sans-serif;
         width: 50%;
         height: 70vh;
         overflow: hidden;
         -webkit-box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
         box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
         border-radius: 25px;
-        .dateFormation,
-        .IntituleFormation {
-            display: inline;
-        }
-        .dateFormation {
-            float: left;
-            text-align: center;
-            width: 20%;
-        }
-        .IntituleFormation {
-            width: 80%;
-            float: right;
+        .formationText {
+            height: 33%;
+            .dateFormation,
+            .IntituleFormation {
+                display: inline;
+            }
+            .dateFormation {
+                float: left;
+                text-align: center;
+                width: 20%;
+                margin-left: 5%;
+                margin-right: 5%;
+                font-size: 2em;
+            }
+            .IntituleFormation {
+                margin-left: 30%;
+                width: 70%;
+                float: right;
+                line-height: 2em;
+                align-items: center;
+            }
         }
     }
 }
@@ -119,53 +130,63 @@ canvas {
     }
 }
 
-.CompetenceContainer {
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ddd;
-    .Language {
-        position: relative;
-        width: 100%;
+#panels {
+    #panels-container {
         height: 100vh;
-        overflow: hidden;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        color: #333;
-        text-align: left;
-        border-right: 1px solid #f00;
-        .containerImage {
-            width: 70vw;
-            height: 30vh;
-            .image {
-                width: 50%;
-                height: 100%;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding: 0;
+        overflow: hidden;
+        .panel {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: left;
+            .panels-navigation {
+                width: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                justify-content: flex-end;
+            }
+            .anchor-panel,
+            .nav-panel {
+                text-transform: uppercase;
+                margin-right: 2rem;
+            }
+            .panels-navigation {
                 position: absolute;
-                margin-left: 50%;
-                margin-top: -5%;
-                img {
-                    max-width: 50%;
-                    max-height: 100%;
-                    width: auto;
-                    height: auto;
-                }
+                width: 100%;
+                bottom: 2rem;
+                right: 2rem;
             }
         }
     }
 }
 
-.declencheur {
-    width: 100vw;
-    height: 10px;
-    background-color: #ffffff;
-    z-index: 100;
-    position: absolute;
+.Horizontal-card {
+    margin-top: 10vh;
+    margin-left: 20vw;
+    width: 60vw;
+    border: 1px solid white;
+    background-color: #0C0C0C;
+    height: 80vh;
+    img {
+        margin-left: 55vw;
+        margin-top: -5vh;
+        max-width: 15vw;
+        width: auto;
+        height: auto;
+        max-height: 25vh;
+        position: absolute;
+    }
 }
-
-#declencheurAnimTitre {}

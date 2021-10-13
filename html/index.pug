@@ -5,8 +5,6 @@ html(Language="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="../css/index.css")
-        link(rel="stylesheet", href="../css/gsap.css")
-        //- link(rel="stylesheet", href="../css/spline.css")
         link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css") 
         title Document
     body(class="")
@@ -22,14 +20,15 @@ html(Language="en")
             div(class="section")
                 h2(class="Titre-2") Formations
                 div(class="formation")
-                    div(class="dateFormation") 2021-2022
-                    div(class="IntituleFormation") Licence CDA en alternance, Valarep
-                div(class="formation")
-                    div(class="dateFormation") 2019-2021 
-                    div(class="IntituleFormation") BTS SIO, Lycée dampierre
-                div(class="formation")
-                    div(class="dateFormation") 2015-2018 
-                    div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
+                    div(class="formationText")
+                        div(class="dateFormation") 2021-2022
+                        div(class="IntituleFormation") Licence CDA en alternance, Valarep
+                    div(class="formationText")
+                        div(class="dateFormation") 2019-2021 
+                        div(class="IntituleFormation") BTS SIO, Lycée dampierre
+                    div(class="formationText")
+                        div(class="dateFormation") 2015-2018 
+                        div(class="IntituleFormation") BAC STI2D, Lycée du hainaut
 
             div(class="section")
                 h2(class="Titre-2") Expérience
@@ -72,7 +71,8 @@ html(Language="en")
                                         div(class="Horizontal-card")
                                             img(src="../images/html.png") 
                                             h4(class="sous-Titre" id="Language-HTML") HTML
-                                            p Bonne connaissance de HTML et de pug
+                                            p Bonne connaissance du HTML et du pug
+                                            p Compréhension des syntaxes HAML...
                                  
                         article(id="panel-2" class="panel full-screen red")
                             div(class="container")
@@ -83,7 +83,8 @@ html(Language="en")
                                         div(class="Horizontal-card")
                                             img(src="../images/css.png")
                                             h4(class="sous-Titre" id="Language-CSS") CSS 
-                                            p Bonne connaissance de CSS et de SCSS, Initiation à TailWindCSS 
+                                            p Bonne connaissance de CSS et de SCSS.
+                                            p Initiation à TailWindCSS et à bootstrap
                           
                         article(id="panel-3" class="panel full-screen red")
                             div(class="container")
@@ -94,7 +95,17 @@ html(Language="en")
                                         div(class="Horizontal-card")
                                             img(src="../images/js.png")
                                             h4(class="sous-Titre" id="Language-JS") JavaScript
-                                            p Intermediaire, bonne connaissance de vanilla js, Jquerry et de AJAX, Initiation à TypeScript, initiation a Three.js, GSAP, Locomotive-scroll, ScrollMagic, AOS et Chart.js
+                                            p Intermediaire, bonne connaissance de vanilla js.
+                                            p Bonne connaissances de Jquerry et de AJAX.
+                                            p Initiation à TypeScript, 
+                                            p Librairie: 
+                                            ul 
+                                                li Three.js: Débutant
+                                                li GSAP
+                                                li Locomotive-scroll 
+                                                li ScrollMagic
+                                                li AOS
+                                                li Chart.js
  
                         article(id="panel-4" class="panel full-screen red")
                             div(class="container")
@@ -105,7 +116,8 @@ html(Language="en")
                                         div(class="Horizontal-card")
                                             img(src="../images/php.png")
                                             h4(class="sous-Titre" id="Language-PHP") PHP 
-                                            p  Connaissances approfondi du Language, bonnes connaissances du framework symfony.
+                                            p  Connaissances approfondi du Language.
+                                            p Bonnes connaissances du framework symfony.
 
                         article(id="panel-5" class="panel full-screen red")
                             div(class="container")
@@ -117,6 +129,8 @@ html(Language="en")
                                             img(src="../images/java.png")
                                             h4(class="sous-Titre") JAVA
                                             p Bonne connaissance du JAVA
+                                            p Utilisation de logiciel tel que Scene buildeur 
+                                            p Développement android sous java
 
                         article(id="panel-6" class="panel full-screen red")
                             div(class="container")
@@ -140,11 +154,7 @@ html(Language="en")
                                             h4(class="sous-Titre") Visual Basic 6
                                             p Débutant
 
-        //- script(src="https://unpkg.com/three@^0.131.0/build/three.min.js")
-        //- script(src="../js/runtime.js")
-        //- script(type="module" src="../js/spline.js")
         script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
-        //- script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js")
         //-! Dont use cdn : Bug smooth-scroll
         script(src="../js/nice-scroll.js")
         script(type="module", src="../js/Horizontal-scroll.js")

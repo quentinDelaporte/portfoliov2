@@ -53,44 +53,55 @@ canvas {
   -moz-text-stroke: 1px #f0f0f0;
   -ms-text-stroke: 1px #f0f0f0;
 }
-.section .sous-Titre {
+.section .sous-Titre,
+.section .formation,
+.section ul,
+.section p {
   color: #f0f0f0;
-  font-size: 1.4em;
-  margin-left: 10%;
   font-family: "Montserrat", sans-serif;
 }
-.section p {
+.section .sous-Titre {
+  font-size: 3em;
+  margin-left: 10%;
+}
+.section p,
+.section ul {
   margin-left: 12%;
   width: 76%;
-  color: #f0f0f0;
-  font-family: "Montserrat", sans-serif;
 }
 .section .formation {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
   background-color: #111111;
-  color: white;
   margin-left: 25%;
-  font-family: "Montserrat", sans-serif;
   width: 50%;
   height: 70vh;
   overflow: hidden;
   box-shadow: 0px 0px 10px -5px rgba(255, 255, 255, 0.98);
   border-radius: 25px;
 }
-.section .formation .dateFormation,
-.section .formation .IntituleFormation {
+.section .formation .formationText {
+  height: 33%;
+}
+.section .formation .formationText .dateFormation,
+.section .formation .formationText .IntituleFormation {
   display: inline;
 }
-.section .formation .dateFormation {
+.section .formation .formationText .dateFormation {
   float: left;
   text-align: center;
   width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2em;
 }
-.section .formation .IntituleFormation {
-  width: 80%;
+.section .formation .formationText .IntituleFormation {
+  margin-left: 30%;
+  width: 70%;
   float: right;
+  line-height: 2em;
+  align-items: center;
 }
 
 #guitarContainer {
@@ -117,46 +128,52 @@ canvas {
   background-color: red;
 }
 
-.CompetenceContainer {
+#panels #panels-container {
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
   padding: 0;
   overflow: hidden;
-  background-color: #ddd;
 }
-.CompetenceContainer .Language {
+#panels #panels-container .panel {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   display: flex;
-  color: #333;
   text-align: left;
-  border-right: 1px solid #f00;
 }
-.CompetenceContainer .Language .containerImage {
-  width: 70vw;
-  height: 30vh;
+#panels #panels-container .panel .panels-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
-.CompetenceContainer .Language .containerImage .image {
-  width: 50%;
-  height: 100%;
+#panels #panels-container .panel .anchor-panel,
+#panels #panels-container .panel .nav-panel {
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+#panels #panels-container .panel .panels-navigation {
   position: absolute;
-  margin-left: 50%;
-  margin-top: -5%;
-}
-.CompetenceContainer .Language .containerImage .image img {
-  max-width: 50%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  bottom: 2rem;
+  right: 2rem;
 }
 
-.declencheur {
-  width: 100vw;
-  height: 10px;
-  background-color: #ffffff;
-  z-index: 100;
+.Horizontal-card {
+  margin-top: 10vh;
+  margin-left: 20vw;
+  width: 60vw;
+  border: 1px solid white;
+  background-color: #0C0C0C;
+  height: 80vh;
+}
+.Horizontal-card img {
+  margin-left: 55vw;
+  margin-top: -5vh;
+  max-width: 15vw;
+  width: auto;
+  height: auto;
+  max-height: 25vh;
   position: absolute;
 }/*# sourceMappingURL=index.css.map */
