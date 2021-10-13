@@ -109,6 +109,7 @@
             "version": "0.13.4"
         },
         "gsap": "^3.8.0",
+        "jquery.nicescroll": "^3.7.6",
         "lethargy": {
             "integrity": "sha512-nFM8blpCF9rqIL5mRAaTGc78W8oQixVtsD86jbEPvcI13+lDUYJf3R7DZQQL7tCiBpbGpGKMX2gwJFO9hiaOkg==",
             "resolved": "https://registry.npmjs.org/lethargy/-/lethargy-1.0.9.tgz",
@@ -120,6 +121,7 @@
             "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
             "version": "4.1.1"
         },
+        "smooth-scrollbar": "^8.6.3",
         "smoothscroll-polyfill": {
             "integrity": "sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==",
             "resolved": "https://registry.npmjs.org/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz",

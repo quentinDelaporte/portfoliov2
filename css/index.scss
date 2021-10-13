@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -24,11 +29,11 @@ canvas {
         font-family: 'Montserrat', sans-serif;
     }
     .Titre-1 {
-        min-height: 130vh;
+        min-height: 100vh;
         .Outline,
         .Inline {
             position: absolute;
-            width: 100vw;
+            width: 80vw;
             height: 20vh;
             text-align: center;
             font-weight: 1000;
@@ -39,6 +44,7 @@ canvas {
             margin-top: calc(30vh + 10vw);
         }
         .Outline {
+            margin-left: 50vw;
             margin-top: 30vh;
             color: #222222;
             -webkit-text-stroke: 1px rgb(240, 240, 240);

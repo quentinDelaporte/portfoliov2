@@ -15,7 +15,7 @@ html(Language="en")
                 div(class="Titre-1")
                     div(class="Outline") DELAPORTE
                     div(class="Inline") QUENTIN 
-            div(id="declencheurAnimTitre" class="declencheur")
+
             div(id="guitarContainer")
                 div(id="guitar")
                 p(class="asideGuitar") Je m'appelle Quentin, j'ai 21 ans et je suis étudiant en Licence CDA ! <br> je suis passioné d'informatique depuis de nombreuses années ! J'ai commencé la programmation en 2014 avec des petites pages web, j'ai tout de suite adoré la logique qui en découle, c'est pour cela que j'en ai fait mon domaine. <br> Durant mon temps libre j'aime jouer de la guitare, bricoller, écouter de la musique...
@@ -143,5 +143,9 @@ html(Language="en")
         //- script(src="https://unpkg.com/three@^0.131.0/build/three.min.js")
         //- script(src="../js/runtime.js")
         //- script(type="module" src="../js/spline.js")
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
+        //- script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js")
+        //-! Dont use cdn : Bug smooth-scroll
+        script(src="../js/nice-scroll.js")
         script(type="module", src="../js/Horizontal-scroll.js")
         script(type="module" src="../js/guitar.js")

@@ -8,9 +8,9 @@ import { PixiPlugin } from "gsap/PixiPlugin";
 import { TextPlugin } from "gsap/TextPlugin";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Scrollbar from 'smooth-scrollbar';
 
 gsap.registerPlugin(CSSRulePlugin, Draggable, EaselPlugin, MotionPathPlugin, PixiPlugin, TextPlugin, ScrollToPlugin, ScrollTrigger);
-
 
 ScrollTrigger.defaults({
     toggleActions: "restart pause resume pause"
@@ -67,22 +67,64 @@ gsap.to(panels, {
     }
 });
 
+// const bodyScrollBar = Scrollbar.init(document.getElementById('scroll-container'), { damping: 0.1, delegateTo: document });
+
+// // Tell ScrollTrigger to use these proxy getter/setter methods for the "body" element: 
+// ScrollTrigger.scrollerProxy(document.body, {
+//     scrollTop(value) {
+//         if (arguments.length) {
+//             bodyScrollBar.scrollTop = value; // setter
+//         }
+//         return bodyScrollBar.scrollTop; // getter
+//     },
+//     getBoundingClientRect() {
+//         return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+//     }
+// });
+
+//NiceScroll
+document.addEventListener('touchstart', function() {}, { passive: false })
+$(document).ready(function() {
+    $("html").niceScroll({
+        cursoropacitymax: 0.5,
+        autohidemode: false,
+        zindex: "999",
+        scrollspeed: 50,
+        Mousescrollstep: 100,
+        Smoothscroll: true
+
+    });
+
+});
 
 
-const bodyScrollBar = Scrollbar.init(document.getElementById('scroll-container'), { damping: 0.1, delegateTo: document });
-
-// Tell ScrollTrigger to use these proxy getter/setter methods for the "body" element: 
-ScrollTrigger.scrollerProxy(document.body, {
-    scrollTop(value) {
-        if (arguments.length) {
-            bodyScrollBar.scrollTop = value; // setter
-        }
-        return bodyScrollBar.scrollTop; // getter
-    },
-    getBoundingClientRect() {
-        return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+//Move title
+gsap.to('.Outline', {
+    xPercent: -150,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".Outline",
+        start: "top center",
+        end: "bottom top",
+        scrub: true
+    }
+});
+gsap.to('.Inline', {
+    xPercent: 150,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".Inline",
+        start: "top center",
+        end: "bottom top",
+        scrub: true
     }
 });
 
-// when the smooth scroller updates, tell ScrollTrigger to update() too: 
-bodyScrollBar.addListener(ScrollTrigger.update);
+//TODO 
+/**
+ * Au debut masquer partie guitare puis l'afficher quand le titre deviens invisible
+ * Déclencheur sous la guitare ?
+ * 
+ * Styliser la partie compétences
+ * Styliser la partie expérience et formations.
+ */
